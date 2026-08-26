@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Cypress">
+  <rect width="16" height="16" rx="4" fill="#0f172a"/>
+  <circle cx="8" cy="8" r="5.2" fill="#69d3a7"/>
+  <circle cx="8" cy="8" r="2.1" fill="#0f172a"/>
+  <path d="M8 3.4v1.3M8 11.3v1.3M3.4 8h1.3M11.3 8h1.3" stroke="#0f172a" stroke-width="1" stroke-linecap="round"/>
+</svg>

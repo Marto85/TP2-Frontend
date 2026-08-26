@@ -2,78 +2,106 @@
   {
     "id": 1,
     "name": "Martín",
-    "role": "Backend Developer",
-    "description": "Especialista en Node.js y arquitectura de sistemas.",
-    "about": "Soy Backend Developer especializado en Node.js y arquitectura de sistemas. Me dedico a diseñar APIs escalables y soluciones robustas para aplicaciones. En mi tiempo libre me apasiona leer, disfrutar del aire libre y jugar al fútbol.",
+    "role": "Product Owner",
+    "description": "Nexo entre el cliente y el equipo de desarrollo.",
+    "about": "Soy el nexo entre el cliente y el equipo de desarrollo. Mi trabajo es entender qué necesita el usuario y traducirlo en objetivos claros para que el producto crezca en la dirección correcta. Priorizo tareas, defino el rumbo del proyecto y me aseguro de que cada funcionalidad aporte valor real. Me apasiona escuchar al cliente y convertir ideas en soluciones concretas.",
     "avatar": "/img/avatar-martin.png",
     "github": "https://github.com/Marto85",
     "linkedin": "https://www.linkedin.com/in/martojuandev/?locale=es",
-    "codes": ["node", "architecture", "javascript"],
+    "codes": ["n8n", "jira"],
     "skills": [
-      { "name": "Node.js", "level": "90%" },
-      { "name": "Arquitectura", "level": "85%" }
+      { "name": "Gestión de producto", "level": "90%" },
+      { "name": "Comunicación con el cliente", "level": "90%" },
+      { "name": "Priorización de tareas", "level": "85%" }
     ],
     "projects": [
-      { "title": "API E-commerce", "desc": "Backend escalable en Node." },
-      { "title": "Auth System", "desc": "Sistema de login con JWT." },
-      { "title": "Chatbot REST", "desc": "Integración con IA." }
+      { "title": "Relevamiento de requerimientos", "desc": "Traducción de necesidades del cliente en objetivos claros." },
+      { "title": "Roadmap de producto", "desc": "Definición del rumbo y prioridades del proyecto." },
+      { "title": "Validación de funcionalidades", "desc": "Asegura que cada entrega aporte valor real." }
     ]
   },
   {
     "id": 2,
-    "name": "Adrian",
-    "role": "Infraestructura IT",
-    "description": "Especialista en soluciones de hardware empresarial y data centers.",
-    "avatar": "/img/avatar-adrian.png",
-    "github": "https://github.com/MaverickARG",
-    "linkedin": "https://www.linkedin.com/in/adrian-madro%C3%B1al-63a38480/",
-    "codes": ["linux", "hardware", "security"],
+    "name": "Nicolás",
+    "role": "Backend Developer",
+    "description": "Diseña y desarrolla la lógica que sostiene la aplicación.",
+    "about": "Me encargo de la lógica que hace funcionar todo por detrás. Diseño y desarrollo la parte del sistema que el usuario no ve pero que sostiene la aplicación: bases de datos, servidores, APIs y la seguridad de la información. Me gusta construir soluciones sólidas, eficientes y escalables, pensando siempre en que todo funcione de forma confiable.",
+    "avatar": "/img/avatar_nico.jpeg",
+    "github": "https://github.com/NicolasRolon",
+    "linkedin": "https://www.linkedin.com/in/nicolaslrs/",
+    "codes": ["node", "architecture", "security"],
     "skills": [
-      { "name": "Linux", "level": "95%" },
-      { "name": "Hardware", "level": "85%" }
+      { "name": "Node.js", "level": "90%" },
+      { "name": "Bases de datos", "level": "85%" },
+      { "name": "APIs y seguridad", "level": "80%" }
     ],
     "projects": [
-      { "title": "Data Center", "desc": "Migración de servidores." },
-      { "title": "VPN Setup", "desc": "Configuración segura de red." },
-      { "title": "Mantenimiento", "desc": "Soporte empresarial." }
+      { "title": "API E-commerce", "desc": "Backend escalable en Node." },
+      { "title": "Auth System", "desc": "Sistema de login con JWT." },
+      { "title": "Diseño de base de datos", "desc": "Modelado de datos para escalabilidad." }
     ]
   },
   {
     "id": 3,
-    "name": "Santiago",
-    "role": "Security & Cloud",
-    "description": "Especialista en seguridad informática, backend y cloud computing.",
-    "avatar": "/img/avatar-santiago.png",
-    "github": "https://github.com/santicuda",
-    "linkedin": "https://www.linkedin.com/in/santiagocuda/",
-    "codes": ["security", "aws", "linux"],
-    "skills": [
-      { "name": "Ciberseguridad", "level": "90%" },
-      { "name": "AWS Cloud", "level": "80%" }
-    ],
-    "projects": [
-      { "title": "Pentesting", "desc": "Auditoría de seguridad web." },
-      { "title": "Cloud Deploy", "desc": "Arquitectura en Amazon Web Services." },
-      { "title": "Firewall Rules", "desc": "Filtros y protección de red." }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Gaston",
+    "name": "Gastón",
     "role": "Frontend Developer",
-    "description": "Especialista en Angular y web apps.",
+    "description": "Transforma diseños e ideas en interfaces claras e intuitivas.",
+    "about": "Transformo diseños e ideas en interfaces que las personas usan todos los días. Me ocupo de todo lo que el usuario ve y toca, buscando que la experiencia sea clara, simple e intuitiva. Cuido cada detalle visual para que la tecnología se sienta accesible y agradable, incluso para quienes no son técnicos.",
     "avatar": "/img/avatar-gaston.png",
     "github": "https://github.com/zamparg",
     "linkedin": "https://www.linkedin.com/in/zamparg",
-    "codes": ["angular", "react", "css"],
+    "codes": ["react", "angular", "css"],
     "skills": [
-      { "name": "Angular", "level": "90%" },
-      { "name": "React", "level": "75%" }
+      { "name": "React", "level": "90%" },
+      { "name": "Angular", "level": "80%" },
+      { "name": "UI / UX", "level": "85%" }
     ],
     "projects": [
       { "title": "WebApp Dashboard", "desc": "Panel administrativo moderno." },
       { "title": "UI Kit", "desc": "Librería de componentes." },
       { "title": "E-commerce UI", "desc": "Interfaz de tienda online." }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Adrián",
+    "role": "Tester (QA)",
+    "description": "Garantiza que el producto llegue al cliente funcionando como debe.",
+    "about": "Soy el responsable de que el producto llegue al cliente funcionando como debe. Pruebo la aplicación, detecto errores antes de que lleguen al usuario y me aseguro de que todo cumpla con la calidad esperada. Mi mirada crítica y detallista ayuda a que el software sea confiable y libre de fallas.",
+    "avatar": "/img/avatar-adrian.png",
+    "github": "https://github.com/MaverickARG",
+    "linkedin": "https://www.linkedin.com/in/adrian-madro%C3%B1al-63a38480/",
+    "codes": ["cypress", "jest"],
+    "skills": [
+      { "name": "Testing manual", "level": "90%" },
+      { "name": "Detección de errores", "level": "90%" },
+      { "name": "Control de calidad", "level": "85%" }
+    ],
+    "projects": [
+      { "title": "Plan de pruebas", "desc": "Diseño de casos de prueba por funcionalidad." },
+      { "title": "Reporte de bugs", "desc": "Seguimiento y priorización de errores." },
+      { "title": "Validación de releases", "desc": "Control de calidad previo a cada entrega." }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Santiago",
+    "role": "DevOps",
+    "description": "Conecta el desarrollo con la operación para entregas ágiles y estables.",
+    "about": "Conecto el desarrollo con la operación para que todo funcione de manera ágil y estable. Me encargo de la infraestructura, la automatización de procesos y los despliegues, buscando que las nuevas versiones lleguen rápido y sin errores. Trabajo para que el equipo pueda entregar valor de forma continua y que el sistema se mantenga siempre disponible.",
+    "avatar": "/img/avatar-santiago.png",
+    "github": "https://github.com/santicuda",
+    "linkedin": "https://www.linkedin.com/in/santiagocuda/",
+    "codes": ["aws", "linux", "security"],
+    "skills": [
+      { "name": "Infraestructura", "level": "90%" },
+      { "name": "AWS Cloud", "level": "85%" },
+      { "name": "Automatización de despliegues", "level": "85%" }
+    ],
+    "projects": [
+      { "title": "Cloud Deploy", "desc": "Arquitectura en Amazon Web Services." },
+      { "title": "CI/CD Pipeline", "desc": "Automatización de integración y despliegue continuo." },
+      { "title": "Monitoreo de disponibilidad", "desc": "Alertas y seguimiento de estabilidad del sistema." }
     ]
   }
 ]

@@ -10,7 +10,7 @@ export default function MemberCard({ member }) {
       </div>
       <div className="card-info">
         <h3>{member.name}</h3>
-        <span>{member.role}</span>
+        <span className="card-role">{member.role}</span>
         <p>{member.description}</p>
       </div>
     </Link>

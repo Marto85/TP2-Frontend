@@ -26,27 +26,15 @@ export default function Sidebar() {
 
       <aside id="main-sidebar" className={`sidebar ${isOpen ? 'is-open' : ''}`}>
         <div className="logo-container">
-          <h2>Dev<span>Team</span></h2>
+          <h2>Talento<span>Tech</span></h2>
         </div>
-        
+
         <ul className="nav-list">
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={closeMenu}>Dashboard</Link>
+            <Link to="/" className="nav-link" onClick={closeMenu}>Inicio</Link>
           </li>
           <li className="nav-item">
-            <Link to="/explorador" className="nav-link" onClick={closeMenu}>Tecnologías Disponibles</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/api" className="nav-link" onClick={closeMenu}>Desarrolladores JS</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/galeria" className="nav-link" onClick={closeMenu}>Galería de Imágenes</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/bitacora" className="nav-link" onClick={closeMenu}>Bitácora</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/arbol" className="nav-link" onClick={closeMenu}>Árbol de Componentes</Link>
+            <Link to="/equipo" className="nav-link" onClick={closeMenu}>Equipo</Link>
           </li>
         </ul>
       </aside>
