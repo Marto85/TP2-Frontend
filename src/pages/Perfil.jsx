@@ -60,6 +60,12 @@ export default function Perfil() {
         </div>
       </div>
 
+      {/* Caja 'Sobre mí' específica del perfil */}
+      <div className="about-box card-panel mt-1">
+        <h3 className="mb-1">Sobre mí</h3>
+        <p>{member.about || member.description}</p>
+      </div>
+
       <div className="perfil-grid">
         {/* 1. Barras de Progreso */}
         <div className="skills-container card-panel">
